@@ -1,8 +1,7 @@
 from header import *
 
-def pagina_grafo():
-    
-    st.title("Busca de Caminhos em Grafo")
+
+def grafo():
 
     # Entradas do usuário
     camI = st.number_input("Valor de partida (nó inicial)", min_value=1, step=1)

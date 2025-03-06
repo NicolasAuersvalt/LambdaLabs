@@ -11,12 +11,11 @@ with open(text_path, 'r', encoding='utf-8') as f:
 def inicio():
     
     # Exibir uma imagem a partir de um arquivo local
-    imagem_path = "assets/coordenada.PNG"  # Substitua pelo caminho da sua imagem
-    imagem_path2 = "assets/LambdaLabs.png"
+    imagem_path = "assets/LambdaLabs.png"
 
     st.title("Bem-vindo ao Laboratório Lambda")
 
-    st.image(imagem_path2, width=400)
+    st.image(imagem_path, width=400)
     
     # Exibir mensagem inicial
     st.write(dados['mensagem_inicial'])
@@ -46,21 +45,3 @@ def inicio():
     # Exibir dados do Revisor
     st.write("**Revisor: {}**".format(dados['revisor']))
     st.markdown("---")
-
-    st.subheader("Grafos")
-    st.write(dados['Grafos'])
-
-    st.markdown("---")
-    st.subheader("Computação Gráfica")
-    st.write(dados['Grafica'])
-    
-
-    st.image(imagem_path, caption="Conversão para Polar", width=400)
-
-    st.write(dados['Grafica2'])
-
-    st.markdown("---")
-
-    st.subheader("Criptografia (Cifra de Hill de ordem N)")
-
-    st.write(dados['Criptografia'])

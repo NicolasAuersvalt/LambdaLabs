@@ -1,7 +1,7 @@
+import streamlit as st
 from header import *
 
 def cifra():
-    st.title("Cifra de Hill")
 
     # Receber o grau
     grau = st.number_input("Digite o Grau:", min_value=1, step=1)

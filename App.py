@@ -1,8 +1,8 @@
 from header import *
-from page.grafo import *
-from page.grafica import *
-from page.polinomio import *
-from page.cifra import *
+from page.pageGrafo import *
+from page.pageGrafica import *
+from page.pagePolinomio import *
+from page.pageCifra import *
 from page.main import *
 
 
@@ -19,7 +19,7 @@ def main():
     elif escolha == "Busca de Caminhos em Grafo":
         pagina_grafo()
     elif escolha == "Criptografia":
-        cifra()
+        pagina_cifra()
     elif escolha == "Polinômios":
         pagina_polinomios()
 
