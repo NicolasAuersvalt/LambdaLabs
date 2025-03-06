@@ -333,6 +333,7 @@ def pagina_operacoes():
             st.write("Resultado:")
             st.write(resultado)
 
+
 def pagina_grafo():
     
     st.title("Busca de Caminhos em Grafo")
