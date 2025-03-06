@@ -6,3 +6,4 @@ from CompGraf import plot_matriz_3d
 from Funcoes import *
 import networkx as nx
 import matplotlib.pyplot as plt
+
