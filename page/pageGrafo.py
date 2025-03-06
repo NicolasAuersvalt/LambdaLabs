@@ -20,8 +20,13 @@ def pagina_grafo():
     if opcoes == "Teoria":
         teoria()
     elif opcoes == "Menor Caminho":
-        grafo()
+        caminho()
 
 
 def teoria():
     st.write(dados['Grafos'])
+
+def caminho():
+    grafo = Grafo()
+    grafo.executar()
+

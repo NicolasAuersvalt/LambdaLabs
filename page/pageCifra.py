@@ -26,3 +26,8 @@ def pagina_cifra():
 def teoria():
     st.write(dados['Introducao'])
     st.write(dados['Cifra'])
+
+def cifra():
+    cifra = Cifra()
+
+    cifra.executar()

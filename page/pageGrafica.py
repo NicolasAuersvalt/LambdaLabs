@@ -27,27 +27,31 @@ def pagina_operacoes():
     except Exception as e:
         st.error("Erro ao converter a matriz. Verifique a entrada.")
 
+    transformacao = Transformacao3D(matriz)
+
     # Verificar se a matriz é 3xn
     if matriz.ndim != 2 or matriz.shape[1] != 3:
         st.error("A matriz deve ter 3 colunas.")
     else:
+        
         resultado = None
         
         if opcao == "Teoria":
             resultado = teoria()
 
         if opcao == "Ampliação":
-            resultado = ampliar(matriz)
+            resultado = transformacao.ampliar()
 
         elif opcao == "Translação":
-            resultado = transladar(matriz)
+            resultado = transformacao.transladar()
 
         elif opcao == "Rotação":
-            resultado = rotacionar(matriz)
+            resultado = transformacao.rotacionar()
 
         if resultado is not None:
+
             # Plotar o gráfico 3D do resultado
-            st.plotly_chart(plot_matriz_3d(resultado))
+            st.plotly_chart(transformacao.plot_matriz_3d(resultado))
 
             # Exibir o resultado
             st.write("Resultado:")
