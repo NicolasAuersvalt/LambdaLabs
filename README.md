@@ -62,5 +62,7 @@ Contribuições são bem-vindas! Siga os passos abaixo:
 
 ## Autores
 Nícolas Auersvalt Marques
+
 Gabriel Lazari Trevisani
+
 Pedro Eugenio Marin Do Nascimento
