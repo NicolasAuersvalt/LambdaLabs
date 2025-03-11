@@ -20,27 +20,28 @@ Este repositório contém uma coleção de experimentos interativos desenvolvido
 └── README.md                # Documentação do projeto
 ```
 
-## Como Executar
+## Como Desenvolver
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-laboratorio.git
+   git clone https://github.com/NicolasAuersvalt/LambdaLabs.git
    cd projeto-laboratorio
    ```
 2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
+   python instalador.py
    ```
 3. Execute o aplicativo:
    ```bash
-   streamlit run app.py
+   streamlit run App.py
    ```
 4. Acesse a aplicação no navegador através do endereço fornecido (geralmente http://localhost:8501).
 
 ## Experimentos Disponíveis
 - **Computação Gráfica**: Visualizações e transformações geométricas.
-- **Criptografia**: Implementações de algoritmos criptográficos e simulações.
-- **Calculadoras**: Ferramentas matemáticas para cálculos complexos.
-- **Grafos**: Visualização e análise de grafos com algoritmos clássicos.
+- **Criptografia**: Crifas de Hill.
+- **Calculadora**: Calculadora de Polinômios.
+- **Grafos**: Encontrar caminho mínimo em um grafo.
 
 ## Contribuição
 Contribuições são bem-vindas! Siga os passos abaixo:
