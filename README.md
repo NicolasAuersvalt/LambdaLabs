@@ -2,6 +2,8 @@
 
 Este repositório contém uma coleção de experimentos interativos desenvolvidos em equipe. O projeto abrange diversas áreas, como Computação Gráfica, Criptografia, Calculadoras Matemáticas e Grafos, oferecendo ferramentas visuais e práticas para auxiliar no aprendizado e na exploração desses temas.
 
+![LambdaLabs](assets/LambdaLabs.png)
+
 ## Tecnologias Utilizadas
 - **Python**: Linguagem principal do projeto.
 - **Streamlit**: Criação de interfaces web interativas.
